@@ -1,0 +1,19 @@
+{
+  "name": "alien-dev-cli",
+  "version": "0.0.1",
+  "description": "A simple command-line tool Alien4Cloud developers",
+  "author": "Cédric Mourouvin",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.6.0",
+    "fs": "0.0.2",
+    "iniparser": "^1.0.5",
+    "prompt": "^0.2.14"
+  },
+  "bin": {
+    "alien-dev": "alien-dev-cli.js"
+  }
+}
